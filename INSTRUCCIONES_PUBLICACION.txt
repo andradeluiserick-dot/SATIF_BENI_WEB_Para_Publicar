@@ -1,0 +1,22 @@
+SATIF BENI WEB V2 - ACTUALIZACION DE TU PAGINA
+==============================================
+
+1. Descomprime el ZIP.
+2. Abre tu repositorio de GitHub y entra en la carpeta SATIF_BENI_WEB_Para_Publicar.
+3. Pulsa Agregar archivo > Cargar archivos.
+4. Sube el CONTENIDO de la carpeta descargada a esa misma carpeta de GitHub.
+5. Confirma los cambios (Commit changes).
+6. Streamlit actualizará la web desde el repositorio; no cambies la ruta principal.
+   Ruta: SATIF_BENI_WEB_Para_Publicar/app.py
+7. En Streamlit, Manage app > Settings > Secrets: configura NASA_FIRMS_MAP_KEY.
+   No pongas esa clave en GitHub o en una página HTML.
+8. Consulta NASA FIRMS y verifica la respuesta en el panel de la web.
+
+INFORMACION IMPORTANTE:
+La MAP_KEY compartida anteriormente aparece en una captura y en HTML.
+Considera regenerarla desde NASA FIRMS. No publiques ese HTML V5 como está.
+
+Funciones V2: mapas claros, NOAA-20/21, fecha, GIBS antes/despues, datos Open-Meteo,
+agrupaciones, informe HTML imprimible y exportacion CSV/GeoJSON/KMZ/SHP.
+
+Fuente de datos: NASA FIRMS; detecciones satelitales no son incendios confirmados.

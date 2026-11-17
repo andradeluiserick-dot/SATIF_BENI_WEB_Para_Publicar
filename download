@@ -1,0 +1,11 @@
+# Claves privadas, nunca subirlas al repositorio
+.streamlit/secrets.toml
+.env
+.env.*
+# Python y archivos temporales
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+*.log
